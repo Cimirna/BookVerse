@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Place Order - BookVerse</title>
+  <link rel="stylesheet" href="placeorder.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <div class="container">
+    <h2>Place Your Order</h2>
+    <div class="checkout-box">
+      <form id="orderForm">
+        <div class="billing">
+          <h3>Billing Details</h3>
+          <input type="text" placeholder="Full Name" required />
+          <input type="email" placeholder="Email Address" required />
+          <input type="text" placeholder="Phone Number" required />
+          <input type="text" placeholder="Address Line 1" required />
+          <input type="text" placeholder="Address Line 2" />
+          <input type="text" placeholder="City" required />
+          <input type="text" placeholder="State" required />
+          <input type="text" placeholder="ZIP / Postal Code" required />
+          <input type="text" placeholder="Country" required />
+        </div>
+
+        <div class="summary">
+          <h3>Order Summary</h3>
+          <div class="summary-details">
+            <p>Subtotal: <span>$300.00</span></p>
+            <p>Shipping: <span>Free</span></p>
+            <p><strong>Total: <span>$300.00</span></strong></p>
+          </div>
+          <button type="submit" class="place-btn">Place Order</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="placeorder.js"></script>
+</body>
+</html>
