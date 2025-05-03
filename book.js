@@ -33,7 +33,7 @@ const bar = document.getElementById('bar');
       .then(data => console.log(data));
 
 
-      /*card activate*/
+      
 
       
     
